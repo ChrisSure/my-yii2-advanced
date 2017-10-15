@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ua-Ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="iHRiLU2-RSa5dnR2qaF3TSEMXFQ_781JBt-I26PhTT4V2xnW9DKK07kRNVT8Q66kLz3NlNd4FYTTMdcRC-8CRw==">
+    <title>Відновлення паролю</title>
+    <link href="/assets/3ac0a056/css/bootstrap.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet"></head>
+<body>
+
+<div class="wrap">
+    <nav id="w12" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w12-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/">My-Yii2-advanced</a></div><div id="w12-collapse" class="collapse navbar-collapse"><ul id="w13" class="navbar-nav navbar-right nav"><li><a href="/admin/site/index">Адмін-панель</a></li>
+<li><a href="/auth/signup">Реєстрація</a></li>
+<li><a href="/auth/login">Вхід</a></li></ul></div></div></nav>
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Головна</a></li>
+<li class="active">Відновлення паролю</li>
+</ul>                <div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="site-request-password-reset">
+				<h1>Відновлення паролю</h1>
+            	<form id="request-password-reset-form" action="/auth/request-password-reset" method="post" role="form">
+<input type="hidden" name="_csrf-frontend" value="iHRiLU2-RSa5dnR2qaF3TSEMXFQ_781JBt-I26PhTT4V2xnW9DKK07kRNVT8Q66kLz3NlNd4FYTTMdcRC-8CRw==">                	<div class="form-group field-passwordresetrequestform-email required">
+<label class="control-label" for="passwordresetrequestform-email">E-mail</label>
+<input type="text" id="passwordresetrequestform-email" class="form-control" name="PasswordResetRequestForm[email]" autofocus aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div>                	<div class="form-group">
+                    	<button type="submit" class="btn btn-primary" name="reset-button">Відправити</button>                	</div>
+            	</form>				</div>
+		</div>
+	</div>
+</div>    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; My Company 2017</p>
+        <p class="pull-right">Працює на <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></p>
+    </div>
+</footer>
+
+<script src="/assets/349808fb/jquery.js"></script>
+<script src="/assets/884250a3/yii.js"></script>
+<script src="/assets/884250a3/yii.validation.js"></script>
+<script src="/assets/884250a3/yii.activeForm.js"></script>
+<script src="/assets/3ac0a056/js/bootstrap.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#request-password-reset-form').yiiActiveForm([{"id":"passwordresetrequestform-email","name":"email","container":".field-passwordresetrequestform-email","input":"#passwordresetrequestform-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Необхідно заповнити «Email»."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Значение «Email» не является правильным email адресом.","enableIDN":false,"skipOnEmpty":1});}}], []);
+});</script></body>
+</html>

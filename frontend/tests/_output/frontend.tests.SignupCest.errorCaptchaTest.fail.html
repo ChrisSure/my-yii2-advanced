@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ua-Ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="ezFY9zQ7GIctN1Nj1Dw1WV5uexdDidu1Fb3qADijkHSSZMb8rWHckKmQnFd-VxwHkpewXvELFAqCLpLnBy0ovg==">
+    <title>Реєстрація</title>
+    <link href="/assets/124cc509/authchoice.css" rel="stylesheet">
+<link href="/assets/3ac0a056/css/bootstrap.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<script src="//www.google.com/recaptcha/api.js?hl=ua" async defer></script></head>
+<body>
+<script type="text/javascript">var recaptchaCallback = function(response){jQuery('#signupform-recaptcha').val(response);};
+var recaptchaExpiredCallback = function(){jQuery('#signupform-recaptcha').val('');};</script>
+<div class="wrap">
+    <nav id="w57" class="navbar-inverse navbar-fixed-top navbar"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w57-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/">My-Yii2-advanced</a></div><div id="w57-collapse" class="collapse navbar-collapse"><ul id="w58" class="navbar-nav navbar-right nav"><li><a href="/admin/site/index">Адмін-панель</a></li>
+<li class="active"><a href="/auth/signup">Реєстрація</a></li>
+<li><a href="/auth/login">Вхід</a></li></ul></div></div></nav>
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Головна</a></li>
+<li class="active">Реєстрація</li>
+</ul>                <div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="site-signup">
+				 <h1>Реєстрація</h1>
+       			 <form id="form-signup" action="/auth/signup" method="post">
+<input type="hidden" name="_csrf-frontend" value="ezFY9zQ7GIctN1Nj1Dw1WV5uexdDidu1Fb3qADijkHSSZMb8rWHckKmQnFd-VxwHkpewXvELFAqCLpLnBy0ovg==">            		<div class="form-group field-signupform-username required">
+<label class="control-label" for="signupform-username">Ім&#039;я</label>
+<input type="text" id="signupform-username" class="form-control" name="SignupForm[username]" value="yura" aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div>                	<div class="form-group field-signupform-email required has-error">
+<label class="control-label" for="signupform-email">E-mail</label>
+<input type="text" id="signupform-email" class="form-control" name="SignupForm[email]" value="t@t.ua" aria-required="true" aria-invalid="true">
+
+<p class="help-block help-block-error">This email address has already been taken.</p>
+</div>                	<div class="form-group field-signupform-password required">
+<label class="control-label" for="signupform-password">Пароль</label>
+<input type="password" id="signupform-password" class="form-control" name="SignupForm[password]" value="12345" aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div>                	
+                	
+                	<div class="form-group field-signupform-recaptcha has-error">
+<label class="control-label" for="signupform-recaptcha">Будь ласка, підтвердьте, що ви не бот.</label>
+<input type="hidden" id="signupform-recaptcha" name="SignupForm[reCaptcha]"><div class="g-recaptcha" data-sitekey="6LeIeDQUAAAAAPZZZ24RMVPGaXKAPEhaFoz5sXqO" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpiredCallback"></div>
+
+<p class="help-block help-block-error"></p>
+</div>                	
+                	<div class="form-group">
+                    	<button type="submit" class="btn btn-primary" name="signup-button">Зареєструватись</button>                	</div>
+            	</form>			</div>
+			<div class="well">
+	            <h2>Вхід через соціадьні мережі</h2>
+	            <div id="w56"><ul class="auth-clients"><li><a class="facebook auth-link" href="/network/auth?authclient=facebook" title="Facebook" data-popup-width="860" data-popup-height="480"><span class="auth-icon facebook"></span></a></li></ul></div>	        </div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; My Company 2017</p>
+        <p class="pull-right">Працює на <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></p>
+    </div>
+</footer>
+
+<script src="/assets/349808fb/jquery.js"></script>
+<script src="/assets/884250a3/yii.js"></script>
+<script src="/assets/884250a3/yii.validation.js"></script>
+<script src="/assets/884250a3/yii.activeForm.js"></script>
+<script src="/assets/124cc509/authchoice.js"></script>
+<script src="/assets/3ac0a056/js/bootstrap.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#form-signup').yiiActiveForm([{"id":"signupform-username","name":"username","container":".field-signupform-username","input":"#signupform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Необхідно заповнити «Ім'я»."});yii.validation.string(value, messages, {"message":"Значение «Ім'я» должно быть строкой.","min":2,"tooShort":"Значение «Ім'я» должно содержать минимум 2 символа.","max":255,"tooLong":"Значение «Ім'я» должно содержать максимум 255 символа.","skipOnEmpty":1});}},{"id":"signupform-email","name":"email","container":".field-signupform-email","input":"#signupform-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Необхідно заповнити «E-mail»."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Значение «E-mail» не является правильным email адресом.","enableIDN":false,"skipOnEmpty":1});yii.validation.string(value, messages, {"message":"Значение «E-mail» должно быть строкой.","max":255,"tooLong":"Значение «E-mail» должно содержать максимум 255 символа.","skipOnEmpty":1});}},{"id":"signupform-password","name":"password","container":".field-signupform-password","input":"#signupform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необхідно заповнити «Пароль»."});yii.validation.string(value, messages, {"message":"Значение «Пароль» должно быть строкой.","min":3,"tooShort":"Значение «Пароль» должно содержать минимум 3 символа.","skipOnEmpty":1});}},{"id":"signupform-recaptcha","name":"reCaptcha","container":".field-signupform-recaptcha","input":"#signupform-recaptcha","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {(function(messages){if(!grecaptcha.getResponse()){messages.push('Необхідно заповнити «Будь ласка, підтвердьте, що ви не бот.».');}})(messages);}}], []);
+jQuery('#w56').authchoice();
+});</script></body>
+</html>
