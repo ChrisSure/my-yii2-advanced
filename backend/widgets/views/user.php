@@ -19,7 +19,7 @@ use yii\helpers\Url;
     	<!-- Menu Footer-->
         <li class="user-footer">
             <div class="pull-left">
-                <a href="<?=Url::to(['/user/view', 'id' => \Yii::$app->user->id])?>" class="btn btn-default btn-flat">Профіль</a>
+                <a href="<?=Url::to(['/auth/user/view', 'id' => \Yii::$app->user->id])?>" class="btn btn-default btn-flat">Профіль</a>
             </div>
             <div class="pull-right">
                 <?= Html::a('Вийти', ['/site/logout'], ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']);?>

@@ -1,9 +1,9 @@
 <?php
 namespace frontend\tests;
-use common\services\LoginServices;
-use common\repositories\UserRepository;
-use common\services\SecurityServices;
-use common\repositories\SecurityRepository;
+use common\logic\services\auth\LoginServices;
+use common\logic\repositories\auth\UserRepository;
+use common\logic\services\security\SecurityServices;
+use common\logic\repositories\security\SecurityRepository;
 
 
 class LoginTest extends \Codeception\Test\Unit

@@ -1,12 +1,12 @@
 <?php
 namespace frontend\tests;
 
-use frontend\logic\services\ResetPasswordServices;
-use common\services\EmailServices;
-use common\repositories\UserRepository;
-use common\services\LoginServices;
-use common\services\SecurityServices;
-use common\repositories\SecurityRepository;
+use frontend\logic\services\auth\ResetPasswordServices;
+use common\logic\services\EmailServices;
+use common\logic\repositories\auth\UserRepository;
+use common\logic\services\auth\LoginServices;
+use common\logic\services\security\SecurityServices;
+use common\logic\repositories\security\SecurityRepository;
 
 
 class ResetTest extends \Codeception\Test\Unit

@@ -17,7 +17,7 @@ return [
         '@img_path' => '@frontend/web/img',
     ],
     'as AccessBehavior' => [
-        'class' => \common\behavior\SecurityBehavior::className(),
+        'class' => \common\logic\behavior\SecurityBehavior::className(),
    	],
     'components' => [
     	//Вхід через соц.сеті
@@ -43,7 +43,7 @@ return [
             'baseUrl' => '',
         ],
         'user' => [
-            'identityClass' => 'common\entities\User',
+            'identityClass' => 'common\logic\entities\auth\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
         ],

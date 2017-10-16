@@ -1,9 +1,9 @@
 <?php
 namespace frontend\tests;
 
-use common\services\EmailServices;
-use common\repositories\UserRepository;
-use common\entities\User;
+use common\logic\services\EmailServices;
+use common\logic\repositories\auth\UserRepository;
+use common\logic\entities\auth\User;
 
 
 

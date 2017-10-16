@@ -30,7 +30,7 @@ return [
         ],
     ],
     'as AccessBehavior' => [
-        'class' => \common\behavior\SecurityBehavior::className(),
+        'class' => \common\logic\behavior\SecurityBehavior::className(),
    	],
     'controllerMap' => [
         'elfinder' => [
@@ -65,7 +65,7 @@ return [
             'baseUrl' => '/admin',
         ],
         'user' => [
-            'identityClass' => 'common\entities\User',
+            'identityClass' => 'common\logic\entities\auth\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
         ],
@@ -85,14 +85,7 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'urlManager' => [
-	        'enablePrettyUrl' => true,
-	        'showScriptName' => false,
-	        'rules' => [
-	            '' => 'site/index',                                
-	            '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
-	        ],
-	    ],
+        'urlManager' => require(__DIR__ . '/url.php'),
     ],
     'params' => $params,
 ];

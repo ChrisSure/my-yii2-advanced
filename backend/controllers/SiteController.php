@@ -5,8 +5,8 @@ use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use backend\logic\form\AdminLoginForm;
-use common\services\LoginServices;
+use backend\logic\form\auth\AdminLoginForm;
+use common\logic\services\auth\LoginServices;
 
 
 
