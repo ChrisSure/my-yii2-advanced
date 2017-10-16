@@ -12386,14 +12386,14 @@
 		<file name="W:\domains\advanced.loc\frontend\views\site\index.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\site\error.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\layouts\main.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\signup.php" crc="1508062192"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\resetPassword.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\requestPasswordResetToken.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\login.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\SignupTest.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\SendEmailTest.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\ResetTest.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\LoginTest.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\signup\signup.php" crc="1508062192"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\resetPassword.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\requestPasswordResetToken.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\auth\login.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\SignupTest.php" crc="1508140714"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\SendEmailTest.php" crc="1508140688"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\ResetTest.php" crc="1508140671"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\LoginTest.php" crc="1508140640"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\SignupCest.php" crc="1508063191"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\SetNewPasswordCest.php" crc="1508048867"/>
@@ -12418,25 +12418,28 @@
 		<file name="W:\domains\advanced.loc\frontend\tests\functional.suite.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\acceptance.suite.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_bootstrap.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\services\ResetPasswordServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\services\NetworkService.php" crc="1508057254"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\form\SignupForm.php" crc="1508050094"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\form\ResetPasswordForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\form\PasswordResetRequestForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\logic\form\LoginForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\SiteController.php" crc="1508049906"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\NetworkController.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\AuthController.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\config\url.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\services\auth\ResetPasswordServices.php" crc="1508139677"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\services\auth\NetworkService.php" crc="1508140259"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\form\auth\SignupForm.php" crc="1508139723"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\form\auth\ResetPasswordForm.php" crc="1508137854"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\form\auth\PasswordResetRequestForm.php" crc="1508139761"/>
+		<file name="W:\domains\advanced.loc\frontend\logic\form\auth\LoginForm.php" crc="1508137843"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\SignupController.php" crc="1508139466"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\ResetController.php" crc="1508137892"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\NetworkController.php" crc="1508140299"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\AuthController.php" crc="1508139584"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\SiteController.php" crc="1508139777"/>
+		<file name="W:\domains\advanced.loc\frontend\config\url.php" crc="1508140576"/>
 		<file name="W:\domains\advanced.loc\frontend\config\test.php" crc="1508063196"/>
 		<file name="W:\domains\advanced.loc\frontend\config\test-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\config\params.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\config\params-local.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\config\main.php" crc="1508058910"/>
+		<file name="W:\domains\advanced.loc\frontend\config\main.php" crc="1508139329"/>
 		<file name="W:\domains\advanced.loc\frontend\config\main-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\config\bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\assets\AppAsset.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\codeception.yml" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\files\ua\yii.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\robots.txt" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\index.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\config\params-local.php" crc="1508048867"/>
@@ -12479,43 +12482,44 @@
 		<file name="W:\domains\advanced.loc\console\config\main-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\console\config\bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\widgets\Alert.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\validator\SlugValidator.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\tests\_support\_generated\UnitTesterActions.php" crc="1508048995"/>
 		<file name="W:\domains\advanced.loc\common\tests\_support\UnitTester.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\tests\_data\user.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\tests\unit.suite.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\tests\_bootstrap.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\UserServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\SignupServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\SecurityServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\PagesServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\LoginServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\EmailServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\services\CategoryServices.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\repositories\UserRepository.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\repositories\SecurityRepository.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\repositories\PagesRepository.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\repositories\CategoryRepository.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\layouts\text.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\layouts\html.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\resetPasswordEmail-html.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\passwordResetToken-html.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\confirmUser-html.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\mail\confirmRegistration-html.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\common\logic\validator\SlugValidator.php" crc="1508139141"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\security\SecurityServices.php" crc="1508139553"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\blog\PagesServices.php" crc="1508141294"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\blog\CategoryServices.php" crc="1508141300"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\auth\UserServices.php" crc="1508139418"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\auth\SignupServices.php" crc="1508139504"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\auth\LoginServices.php" crc="1508139411"/>
+		<file name="W:\domains\advanced.loc\common\logic\services\EmailServices.php" crc="1508138877"/>
+		<file name="W:\domains\advanced.loc\common\logic\repositories\security\SecurityRepository.php" crc="1508139358"/>
+		<file name="W:\domains\advanced.loc\common\logic\repositories\blog\PagesRepository.php" crc="1508141322"/>
+		<file name="W:\domains\advanced.loc\common\logic\repositories\blog\CategoryRepository.php" crc="1508141315"/>
+		<file name="W:\domains\advanced.loc\common\logic\repositories\auth\UserRepository.php" crc="1508139531"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\security\Security.php" crc="1508138657"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\search\UserSearch.php" crc="1508142077"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\search\PagesSearch.php" crc="1508139014"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\search\CategorySearch.php" crc="1508139004"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\queries\CategoryQuery.php" crc="1508138935"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\blog\Pages.php" crc="1508138958"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\blog\Category.php" crc="1508138948"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\User.php" crc="1508138988"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Role.php" crc="1508138618"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Network.php" crc="1508138619"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\LoginForm.php" crc="1508138619"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\AuthAssign.php" crc="1508138620"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Assignment.php" crc="1508138620"/>
+		<file name="W:\domains\advanced.loc\common\logic\behavior\SecurityBehavior.php" crc="1508138505"/>
 		<file name="W:\domains\advanced.loc\common\fixtures\UserFixture.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\search\UserSearch.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\search\PagesSearch.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\search\CategorySearch.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\queries\CategoryQuery.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\User.php" crc="1508059395"/>
-		<file name="W:\domains\advanced.loc\common\entities\Security.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\Role.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\Pages.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\Network.php" crc="1508057399"/>
-		<file name="W:\domains\advanced.loc\common\entities\LoginForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\Category.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\AuthAssign.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\entities\Assignment.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\test.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\test-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\params.php" crc="1508048867"/>
@@ -12523,9 +12527,8 @@
 		<file name="W:\domains\advanced.loc\common\config\main.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\main-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\bootstrap.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\behavior\SecurityBehavior.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\codeception.yml" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\widgets\views\user.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\widgets\views\user.php" crc="1508142231"/>
 		<file name="W:\domains\advanced.loc\backend\widgets\views\my.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\widgets\UserWidget.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\widgets\MyWidget.php" crc="1508048867"/>
@@ -12620,6 +12623,7 @@
 		<file name="W:\domains\advanced.loc\backend\web\assets\e70b8aa7\css\alt\AdminLTE-bootstrap-social.css" crc="1508065137"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\e70b8aa7\css\AdminLTE.min.css" crc="1508065137"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\e70b8aa7\css\AdminLTE.css" crc="1508065137"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\e1191b22\jquery.pjax.js" crc="1508066780"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\js\locales\bootstrap-datepicker.zh-TW.min.js" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\js\locales\bootstrap-datepicker.zh-CN.min.js" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\js\locales\bootstrap-datepicker.vi.min.js" crc="1508050149"/>
@@ -12712,6 +12716,47 @@
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker3.css" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker.min.css" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker.css" crc="1508050149"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\pages\dashboard2.js" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\pages\dashboard.js" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\demo.js" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\adminlte.min.js" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\adminlte.js" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-yellow.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-yellow.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-yellow-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-yellow-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-red.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-red.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-red-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-red-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-purple.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-purple.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-purple-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-purple-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-green.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-green.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-green-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-green-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-blue.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-blue.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-blue-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-blue-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-black.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-black.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-black-light.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\skin-black-light.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\_all-skins.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\skins\_all-skins.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-without-plugins.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-without-plugins.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-select2.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-select2.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-fullcalendar.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-fullcalendar.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-bootstrap-social.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\alt\AdminLTE-bootstrap-social.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\AdminLTE.min.css" crc="1508066088"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\css\AdminLTE.css" crc="1508066088"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\884250a3\yii.validation.js" crc="1508049029"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\884250a3\yii.js" crc="1508049029"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\884250a3\yii.gridView.js" crc="1508049029"/>
@@ -12760,6 +12805,8 @@
 		<file name="W:\domains\advanced.loc\backend\web\assets\7f40e525\css\alt\AdminLTE-bootstrap-social.css" crc="1508065447"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\7f40e525\css\AdminLTE.min.css" crc="1508065447"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\7f40e525\css\AdminLTE.css" crc="1508065447"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\74963825\no.conflict.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\74963825\elfinder.callback.js" crc="1508066785"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\69c40320\js\kv-widgets.min.js" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\69c40320\js\kv-widgets.js" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\69c40320\css\kv-widgets.min.css" crc="1508050149"/>
@@ -12822,6 +12869,263 @@
 		<file name="W:\domains\advanced.loc\backend\web\assets\39e74aa3\css\field-range.css" crc="1508050149"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\349808fb\jquery.min.js" crc="1508049029"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\349808fb\jquery.js" crc="1508049029"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor_iequirks.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor_ie8.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor_ie7.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor_ie.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor_gecko.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\editor.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\dialog_iequirks.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\dialog_ie8.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\dialog_ie7.css" crc="1508066790"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\dialog_ie.css" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\skins\moono\dialog.css" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\wysiwygarea\fullpage.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\toolbar\toolbar.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\magicline\magicline.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\htmlwriter\assets\outputforflash\swfobject.js" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\htmlwriter\outputhtml.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\htmlwriter\outputforflash.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\enterkey\enterkey.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\dialog\assets\my_dialog.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\plugins\dialog\dialog.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\assets\uilanguages\languages.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\assets\outputxhtml\outputxhtml.css" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\assets\posteddata.php" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\xhtmlstyle.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\uilanguages.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\uicolor.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\tabindex.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\sample_posteddata.php" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\sample.js" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\sample.css" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\replacebycode.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\replacebyclass.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\readonly.html" crc="1508066789"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\jquery.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\inlinetextarea.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\inlinebycode.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\inlineall.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\index.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\divreplace.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\datafiltering.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\appendto.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\api.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\samples\ajax.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\wsc\dialogs\wsc_ie.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\wsc\dialogs\wsc.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\wsc\dialogs\wsc.css" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\wsc\dialogs\tmpFrameset.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\wsc\dialogs\ciframe.html" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\templates\templates\default.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\templates\dialogs\templates.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\templates\dialogs\templates.css" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\tabletools\dialogs\tableCell.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\table\dialogs\table.js" crc="1508066788"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\zh.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\zh-cn.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\vi.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\uk.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ug.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\tt.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\tr.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\th.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\sv.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\sq.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\sl.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\sk.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\si.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ru.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\pt.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\pt-br.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\pl.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\no.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\nl.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\nb.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\lv.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ku.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\km.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ja.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\it.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\id.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\hu.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\hr.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\he.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\gl.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\fr.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\fr-ca.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\fi.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\fa.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\et.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\es.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\eo.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\en.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\en-gb.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\el.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\de.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\cy.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\cs.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ca.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\bg.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\ar.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\lang\_translationstatus.txt" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\specialchar\dialogs\specialchar.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\smiley\dialogs\smiley.js" crc="1508066787"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\scayt\dialogs\toolbar.css" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\scayt\dialogs\options.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\preview\preview.html" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\pastefromword\filter\default.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\liststyle\dialogs\liststyle.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\link\dialogs\link.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\link\dialogs\anchor.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\image\dialogs\image.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\iframe\dialogs\iframe.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\textfield.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\textarea.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\select.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\radio.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\hiddenfield.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\form.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\checkbox.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\forms\dialogs\button.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\flash\dialogs\flash.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\find\dialogs\find.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\div\dialogs\div.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\dialog\dialogDefinition.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\colordialog\dialogs\colordialog.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\clipboard\dialogs\paste.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\about\dialogs\about.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\zh.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\zh-cn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\vi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\uk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ug.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\tt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\tr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\th.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sv.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sr-latn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sq.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\sk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\si.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ru.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ro.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\pt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\pt-br.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\pl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\no.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\nl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\nb.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\mn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\mk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\lv.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\lt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ku.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ko.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\km.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ja.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\it.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\id.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\hu.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\hr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\hi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\he.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\gu.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\gl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\fr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\fr-ca.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\fi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\fa.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\et.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\es.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\eo.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\en.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\en-gb.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\el.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\de.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\da.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\cy.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\cs.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ca.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\bg.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\ar.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\plugins\a11yhelp\dialogs\a11yhelp.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\zh.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\zh-cn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\vi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\uk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ug.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\tt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\tr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\th.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sv.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sr-latn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sq.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\sk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\si.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ru.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ro.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\pt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\pt-br.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\pl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\no.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\nl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\nb.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ms.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\mn.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\mk.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\lv.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\lt.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ku.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ko.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\km.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ka.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ja.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\it.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\is.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\id.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\hu.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\hr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\hi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\he.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\gu.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\gl.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\fr.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\fr-ca.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\fo.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\fi.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\fa.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\eu.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\et.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\es.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\eo.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\en.js" crc="1508066786"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\en-gb.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\en-ca.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\en-au.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\el.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\de.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\da.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\cy.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\cs.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ca.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\bs.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\bn.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\bg.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\ar.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\lang\af.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\adapters\jquery.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\styles.js" crc="1508066791"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\js.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\contents.css" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\config.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\ckeditor.js" crc="1508066785"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\2187b6d9\build-config.js" crc="1508066785"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\1f5c3e2c\userswitch.js" crc="1508063911"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\1f5c3e2c\toolbar.js" crc="1508063911"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\1f5c3e2c\toolbar.css" crc="1508063911"/>
@@ -12832,34 +13136,34 @@
 		<file name="W:\domains\advanced.loc\backend\web\index.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\web\index-test.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\web\.htaccess" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\view.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\update.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\password.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\index.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\create.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\_search.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\user\_form.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\login.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\index.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\error.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\view.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\update.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\index.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\create.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\_search.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\pages\_form.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\main.php" crc="1508066359"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\main-login.php" crc="1508067012"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\left.php" crc="1508066756"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\header.php" crc="1508066721"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\error.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\content.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\view.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\update.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\index.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\create.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\_search.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\views\category\_form.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\view.php" crc="1508141589"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\update.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\index.php" crc="1508141384"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\create.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\_search.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\pages\_form.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\view.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\update.php" crc="1508141640"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\index.php" crc="1508141518"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\create.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\_search.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\blog\category\_form.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\view.php" crc="1508141780"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\update.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\password.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\index.php" crc="1508141768"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\create.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\_search.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\_form.php" crc="1508141958"/>
 		<file name="W:\domains\advanced.loc\backend\tests\unit\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\LoginCest.php" crc="1508047575"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\_bootstrap.php" crc="1508048867"/>
@@ -12868,25 +13172,27 @@
 		<file name="W:\domains\advanced.loc\backend\tests\_support\UnitTester.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_support\FunctionalTester.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.LoginCest.loginTest.fail.html" crc="1508058181"/>
+		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.LoginCest.errorTest.fail.html" crc="1508066838"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_data\login_data.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\unit.suite.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional.suite.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_bootstrap.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\UserUpdateForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\UserPasswordForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\UserForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\PagesForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\CategoryForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\logic\form\AdminLoginForm.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\controllers\UserController.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\controllers\SiteController.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\controllers\PagesController.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\controllers\CategoryController.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\blog\PagesForm.php" crc="1508139161"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\blog\CategoryForm.php" crc="1508139149"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\auth\UserUpdateForm.php" crc="1508139108"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\auth\UserPasswordForm.php" crc="1508139079"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\auth\UserForm.php" crc="1508139104"/>
+		<file name="W:\domains\advanced.loc\backend\logic\form\auth\AdminLoginForm.php" crc="1508139069"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\blog\PagesController.php" crc="1508141257"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\blog\CategoryController.php" crc="1508141265"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\auth\UserController.php" crc="1508141863"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\SiteController.php" crc="1508139198"/>
+		<file name="W:\domains\advanced.loc\backend\config\url.php" crc="1508141983"/>
 		<file name="W:\domains\advanced.loc\backend\config\test.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\config\test-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\config\params.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\config\params-local.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\backend\config\main.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\backend\config\main.php" crc="1508140864"/>
 		<file name="W:\domains\advanced.loc\backend\config\main-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\config\bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\assets\ErrorAsset.php" crc="1508048867"/>
