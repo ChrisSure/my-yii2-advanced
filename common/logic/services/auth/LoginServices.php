@@ -49,13 +49,17 @@ class LoginServices
 	*/
 	public function loginUserByEmail($email, $password, $rememberMe, $admin = false)
 	{
-		$user = User::find()->where(['email' => $email])->andwhere(['status' => User::STATUS_ACTIVE])->one();
+		$user = User::find()->joinWith('auth')->where(['user.email' => $email])->andwhere(['user.status' => User::STATUS_ACTIVE])->one();
+		
 		if (!$user || !$this->validatePassword($user, $password)) {
 			$this->secServ->logAttempt(Yii::$app->request->userIP);
 			return false;
 		} else {
 			if ($admin) {
-				 if (!$this->isAdmin($user)) return false;
+				if (!$this->isAdmin($user)) {
+					$this->secServ->logAttempt(Yii::$app->request->userIP);
+				 	return false;
+				}
 			}
 			if (!Yii::$app->user->login($user, ($rememberMe) ? 3600 * 24 * 30 : 0)) {
 				throw new BadRequestHttpException('Невдалось залогінитись.');

@@ -13,6 +13,7 @@ return [
 	    'category' => 'blog/category/index',
 	    'category/create' => 'blog/category/create',
 	    'category/update/<id:\d+>' => 'blog/category/update',
+	    'category/view/<id:\d+>' => 'blog/category/view',
 	    'category/move-up/<id:\d+>' => 'blog/category/move-up',
 	    'category/move-down/<id:\d+>' => 'blog/category/move-down',
 	    

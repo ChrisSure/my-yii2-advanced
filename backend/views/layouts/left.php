@@ -39,8 +39,8 @@
                         'icon' => 'database',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Категорії', 'icon' => 'bars', 'url' => ['/category']],
                     		['label' => 'Сторінки', 'icon' => 'archive', 'url' => ['/pages']],
+                    		['label' => 'Категорії', 'icon' => 'bars', 'url' => ['/category']],
                         ],
                     ],
     				

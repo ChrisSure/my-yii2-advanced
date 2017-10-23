@@ -2,126 +2,6 @@
 <project name="W:\domains\advanced.loc\advanced.loc.clpprj">
 	<settings><PM_URL><![CDATA[W:/domains/advanced.loc/]]></PM_URL><PM_HOME_URL><![CDATA[W:/domains/advanced.loc/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 	</lastopfiles>
-	<errors version="5.11">
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2-httpclient\debug\views\detail.php">
-			<error val="27;30;30;30;102;1;"/>
-			<error val="21;39;24;39;102;1;"/>
-			<error val="20;51;23;51;102;1;"/>
-			<error val="20;58;23;58;102;1;"/>
-			<error val="20;87;23;87;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2-debug\views\default\panels\profile\detail.php">
-			<error val="27;36;30;36;102;1;"/>
-			<error val="21;45;24;45;102;1;"/>
-			<error val="20;58;23;58;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2-debug\views\default\panels\log\detail.php">
-			<error val="13;28;16;28;102;1;"/>
-			<error val="27;37;30;37;102;1;"/>
-			<error val="20;46;23;46;102;1;"/>
-			<error val="20;68;23;68;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2-debug\views\default\panels\db\detail.php">
-			<error val="27;28;30;28;102;1;"/>
-			<error val="21;37;24;37;102;1;"/>
-			<error val="20;49;23;49;102;1;"/>
-			<error val="20;77;23;77;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2-debug\views\default\index.php">
-			<error val="17;56;20;56;102;1;"/>
-			<error val="24;63;27;63;102;1;"/>
-			<error val="24;70;27;70;102;1;"/>
-			<error val="24;90;27;90;102;1;"/>
-			<error val="24;105;27;105;102;1;"/>
-			<error val="24;127;27;127;102;1;"/>
-			<error val="1;134;6;134;252;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\yiisoft\yii2\log\Logger.php">
-			<error val="28;215;31;215;302;2;"/>
-			<error val="40;228;43;228;302;2;"/>
-			<error val="34;215;42;215;303;2;"/>
-			<error val="46;228;54;228;303;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\webmozart\assert\src\Assert.php">
-			<error val="22;162;23;162;102;1;"/>
-			<error val="22;660;23;660;102;1;"/>
-			<error val="22;835;23;835;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\symfony\debug\DebugClassLoader.php">
-			<error val="58;238;69;238;303;2;"/>
-			<error val="64;242;75;242;303;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\symfony\console\Application.php">
-			<error val="63;701;69;701;303;2;"/>
-			<error val="72;702;78;702;303;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\swiftmailer\swiftmailer\tests\unit\Swift\ByteStream\ArrayByteStreamTest.php">
-			<error val="38;57;39;57;901;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\studio-42\elfinder\php\elFinder.class.php">
-			<error val="49;3325;50;3325;901;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\sebastian\diff\tests\ParserTest.php">
-			<error val="0;84;1;84;102;1;"/>
-			<error val="0;128;4;128;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\phpunit\tests\_files\WrapperIteratorAggregate.php">
-			<error val="20;18;23;18;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\phpunit\tests\_files\TestGeneratorMaker.php">
-			<error val="22;6;25;6;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\php-token-stream\tests\_fixture\classUsesNamespacedFunction.php">
-			<error val="3;3;12;3;601;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\php-token-stream\tests\_fixture\class_with_multiple_anonymous_classes_and_functions.php">
-			<error val="22;5;24;5;102;1;"/>
-			<error val="22;11;24;11;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\php-token-stream\tests\_fixture\class_with_method_that_declares_anonymous_class2.php">
-			<error val="18;3;20;3;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\phpunit\php-token-stream\tests\_fixture\class_with_method_that_declares_anonymous_class.php">
-			<error val="22;8;24;8;102;1;"/>
-			<error val="22;9;23;9;102;1;"/>
-			<error val="22;10;30;10;102;1;"/>
-			<error val="22;11;30;11;102;1;"/>
-			<error val="22;12;33;12;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\guzzlehttp\promises\src\EachPromise.php">
-			<error val="67;120;68;120;901;2;"/>
-			<error val="35;141;36;141;901;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\guzzlehttp\guzzle\src\Handler\CurlMultiHandler.php">
-			<error val="87;105;88;105;901;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\guzzlehttp\guzzle\src\Pool.php">
-			<error val="30;56;33;56;102;1;"/>
-			<error val="30;58;33;58;102;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\ezyang\htmlpurifier\maintenance\PH5P.php">
-			<error val="17;3124;23;3126;254;2;"/>
-			<error val="17;3142;23;3144;254;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\ezyang\htmlpurifier\library\HTMLPurifier\Lexer\PH5P.php">
-			<error val="18;3925;0;3939;254;2;"/>
-			<error val="18;3955;0;3969;254;2;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Instantiator.php">
-			<error val="99;149;101;149;204;1;"/>
-		</errfile>
-		<errfile name="W:\domains\advanced.loc\vendor\codeception\base\tests\data\Invalid.php">
-			<error val="2;1;5;1;102;1;"/>
-		</errfile>
-	</errors>
-	<cakedata>
-	</cakedata>
-	<dplmenupath>
-	</dplmenupath><laravael>
-	</laravael><smartyassings>
-	</smartyassings><twigtemplate>
-	</twigtemplate><yiidata>
-	</yiidata>
 	<todoblock>
 		<todofile name="W:\domains\advanced.loc\vendor\almasaeed2010\adminlte\bower_components\Flot\excanvas.js">
 			<todo name="TODO: use runtimeStyle and coordsize" pos="11;158"/>
@@ -12383,22 +12263,26 @@
 		<file name="W:\domains\advanced.loc\frontend\web\index.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\web\index-test.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\web\.htaccess" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\views\site\index.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\views\site\index.php" crc="1508584748"/>
 		<file name="W:\domains\advanced.loc\frontend\views\site\error.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\layouts\main.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\auth\signup\signup.php" crc="1508062192"/>
 		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\resetPassword.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\requestPasswordResetToken.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\views\auth\auth\login.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\SignupTest.php" crc="1508140714"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\SendEmailTest.php" crc="1508140688"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\ResetTest.php" crc="1508140671"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\LoginTest.php" crc="1508140640"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\SignupFormTest.php" crc="1508585351"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\ReserFormTest.php" crc="1508585532"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\RequestFormTest.php" crc="1508585477"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\LoginFormTest.php" crc="1508585037"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\SignupTest.php" crc="1508140714"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\SendEmailTest.php" crc="1508140688"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\ResetTest.php" crc="1508140671"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\LoginTest.php" crc="1508140640"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\SignupCest.php" crc="1508063191"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\SetNewPasswordCest.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\ResetCest.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\functional\LoginCest.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\functional\LoginCest.php" crc="1508142929"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\functional\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\acceptance\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_support\_generated\UnitTesterActions.php" crc="1508048997"/>
@@ -12411,7 +12295,7 @@
 		<file name="W:\domains\advanced.loc\frontend\tests\_output\frontend.tests.SignupCest.errorCaptchaTest.fail.html" crc="1508062972"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_output\frontend.tests.SignupCest.confirmTest.fail.html" crc="1508063061"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_output\frontend.tests.ResetCest.confirmTest.fail.html" crc="1508058180"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\_output\frontend.tests.LoginCest.loginTest.fail.html" crc="1508058180"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\_output\frontend.tests.LoginCest.loginTest.fail.html" crc="1508142916"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_data\user.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\_data\login_data.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit.suite.yml" crc="1508048867"/>
@@ -12438,7 +12322,7 @@
 		<file name="W:\domains\advanced.loc\frontend\config\main-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\config\bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\frontend\assets\AppAsset.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\frontend\codeception.yml" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\frontend\codeception.yml" crc="1508574366"/>
 		<file name="W:\domains\advanced.loc\files\ua\yii.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\robots.txt" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\index.php" crc="1508048867"/>
@@ -12520,7 +12404,7 @@
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Assignment.php" crc="1508138620"/>
 		<file name="W:\domains\advanced.loc\common\logic\behavior\SecurityBehavior.php" crc="1508138505"/>
 		<file name="W:\domains\advanced.loc\common\fixtures\UserFixture.php" crc="1508048867"/>
-		<file name="W:\domains\advanced.loc\common\config\test.php" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\common\config\test.php" crc="1508142994"/>
 		<file name="W:\domains\advanced.loc\common\config\test-local.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\params.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\common\config\params-local.php" crc="1508048867"/>
@@ -13164,6 +13048,12 @@
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\create.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\_search.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\_form.php" crc="1508141958"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\PagesFormTest.php" crc="1508585782"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\CategoryFormTest.php" crc="1508585794"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserUpdateFormTest.php" crc="1508585757"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserPasswordFormTest.php" crc="1508585747"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserFormTest.php" crc="1508586467"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\LoginFormTest.php" crc="1508585851"/>
 		<file name="W:\domains\advanced.loc\backend\tests\unit\_bootstrap.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\LoginCest.php" crc="1508047575"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\_bootstrap.php" crc="1508048867"/>
@@ -13200,7 +13090,7 @@
 		<file name="W:\domains\advanced.loc\backend\codeception.yml" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\requirements.php" crc="1508048867"/>
 		<file name="W:\domains\advanced.loc\Install-yii2-advanced.txt" crc="1508049230"/>
-		<file name="W:\domains\advanced.loc\codeception.yml" crc="1508048867"/>
+		<file name="W:\domains\advanced.loc\codeception.yml" crc="1508574552"/>
 		<file name="W:\domains\advanced.loc\.htaccess" crc="1508048866"/>
 	</filescache>
 </project>
