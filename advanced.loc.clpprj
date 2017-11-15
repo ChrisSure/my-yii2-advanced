@@ -12241,11 +12241,11 @@
 		<file name="W:\domains\advanced.loc\vendor\almasaeed2010\adminlte\Gruntfile.js" crc="1508062328"/>
 		<file name="W:\domains\advanced.loc\vendor\autoload.php" crc="1508062366"/>
 		<file name="W:\domains\advanced.loc\vagrant\config\vagrant-local.example.yml" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\widgets\views\pages.php" crc="1510385996"/>
-		<file name="W:\domains\advanced.loc\frontend\widgets\views\category.php" crc="1510385996"/>
-		<file name="W:\domains\advanced.loc\frontend\widgets\PagesWidget.php" crc="1510399796"/>
-		<file name="W:\domains\advanced.loc\frontend\widgets\CategoryWidget.php" crc="1510407380"/>
-		<file name="W:\domains\advanced.loc\frontend\web\css\site.css" crc="1508045267"/>
+		<file name="W:\domains\advanced.loc\frontend\widgets\views\pages.php" crc="1510735420"/>
+		<file name="W:\domains\advanced.loc\frontend\widgets\views\category.php" crc="1510735365"/>
+		<file name="W:\domains\advanced.loc\frontend\widgets\PagesWidget.php" crc="1510737356"/>
+		<file name="W:\domains\advanced.loc\frontend\widgets\CategoryWidget.php" crc="1510726828"/>
+		<file name="W:\domains\advanced.loc\frontend\web\css\site.css" crc="1510735545"/>
 		<file name="W:\domains\advanced.loc\frontend\web\assets\884250a3\yii.validation.js" crc="1508045395"/>
 		<file name="W:\domains\advanced.loc\frontend\web\assets\884250a3\yii.js" crc="1508045395"/>
 		<file name="W:\domains\advanced.loc\frontend\web\assets\884250a3\yii.gridView.js" crc="1508045395"/>
@@ -12266,19 +12266,19 @@
 		<file name="W:\domains\advanced.loc\frontend\web\index.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\web\index-test.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\web\.htaccess" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\views\site\index.php" crc="1510407619"/>
+		<file name="W:\domains\advanced.loc\frontend\views\site\index.php" crc="1510735511"/>
 		<file name="W:\domains\advanced.loc\frontend\views\site\error.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\views\layouts\main.php" crc="1510400065"/>
-		<file name="W:\domains\advanced.loc\frontend\views\blog\pages\view.php" crc="1510385995"/>
-		<file name="W:\domains\advanced.loc\frontend\views\blog\category\view.php" crc="1510385995"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\signup\signup.php" crc="1508058592"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\resetPassword.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\requestPasswordResetToken.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\views\auth\auth\login.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\SignupFormTest.php" crc="1508581751"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\ReserFormTest.php" crc="1508581932"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\RequestFormTest.php" crc="1508581877"/>
-		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\LoginFormTest.php" crc="1508581437"/>
+		<file name="W:\domains\advanced.loc\frontend\views\layouts\main.php" crc="1510735167"/>
+		<file name="W:\domains\advanced.loc\frontend\views\blog\pages\view.php" crc="1510727153"/>
+		<file name="W:\domains\advanced.loc\frontend\views\blog\category\view.php" crc="1510727148"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\signup\signup.php" crc="1510727193"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\resetPassword.php" crc="1510727209"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\reset\requestPasswordResetToken.php" crc="1510727202"/>
+		<file name="W:\domains\advanced.loc\frontend\views\auth\auth\login.php" crc="1510727217"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\SignupFormTest.php" crc="1510726795"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\ReserFormTest.php" crc="1510726787"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\RequestFormTest.php" crc="1510726775"/>
+		<file name="W:\domains\advanced.loc\frontend\tests\unit\forms\auth\LoginFormTest.php" crc="1510726722"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\SignupTest.php" crc="1510568920"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\SendEmailTest.php" crc="1508137088"/>
 		<file name="W:\domains\advanced.loc\frontend\tests\unit\block\ResetTest.php" crc="1510408868"/>
@@ -12316,22 +12316,23 @@
 		<file name="W:\domains\advanced.loc\frontend\logic\components\Meta.php" crc="1510399615"/>
 		<file name="W:\domains\advanced.loc\frontend\controllers\blog\PagesController.php" crc="1510569549"/>
 		<file name="W:\domains\advanced.loc\frontend\controllers\blog\CategoryController.php" crc="1510569533"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\auth\SignupController.php" crc="1510569360"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\SignupController.php" crc="1510725523"/>
 		<file name="W:\domains\advanced.loc\frontend\controllers\auth\ResetController.php" crc="1510569391"/>
 		<file name="W:\domains\advanced.loc\frontend\controllers\auth\NetworkController.php" crc="1510569448"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\auth\AuthController.php" crc="1510569481"/>
-		<file name="W:\domains\advanced.loc\frontend\controllers\SiteController.php" crc="1510569560"/>
-		<file name="W:\domains\advanced.loc\frontend\config\url.php" crc="1510400107"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\auth\AuthController.php" crc="1510725882"/>
+		<file name="W:\domains\advanced.loc\frontend\controllers\SiteController.php" crc="1510737409"/>
+		<file name="W:\domains\advanced.loc\frontend\config\url.php" crc="1510726024"/>
 		<file name="W:\domains\advanced.loc\frontend\config\test.php" crc="1508059596"/>
 		<file name="W:\domains\advanced.loc\frontend\config\test-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\config\params.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\config\params-local.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\frontend\config\main.php" crc="1508135729"/>
+		<file name="W:\domains\advanced.loc\frontend\config\main.php" crc="1510725990"/>
 		<file name="W:\domains\advanced.loc\frontend\config\main-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\config\bootstrap.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\assets\AppAsset.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\frontend\codeception.yml" crc="1508570766"/>
 		<file name="W:\domains\advanced.loc\files\ua\yii.php" crc="1508045267"/>
+		<file name="W:\domains\advanced.loc\files\advanced_test.sql" crc="1510737729"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\robots.txt" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\web\index.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\environments\prod\frontend\config\params-local.php" crc="1508045267"/>
@@ -12408,12 +12409,12 @@
 		<file name="W:\domains\advanced.loc\common\logic\entities\system\Setting.php" crc="1510407236"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\system\Security.php" crc="1510408435"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\system\Logs.php" crc="1510400249"/>
-		<file name="W:\domains\advanced.loc\common\logic\entities\search\UserSearch.php" crc="1508138477"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\search\UserSearch.php" crc="1510727445"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\search\SecuritySearch.php" crc="1510408122"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\search\PagesSearch.php" crc="1508135414"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\search\CategorySearch.php" crc="1508135404"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\queries\CategoryQuery.php" crc="1508135335"/>
-		<file name="W:\domains\advanced.loc\common\logic\entities\blog\Pages.php" crc="1508135358"/>
+		<file name="W:\domains\advanced.loc\common\logic\entities\blog\Pages.php" crc="1510734346"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\blog\Category.php" crc="1508135348"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\User.php" crc="1508742720"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Role.php" crc="1510566508"/>
@@ -12421,20 +12422,20 @@
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\LoginForm.php" crc="1508135019"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\AuthAssign.php" crc="1508135020"/>
 		<file name="W:\domains\advanced.loc\common\logic\entities\auth\Assignment.php" crc="1508135020"/>
-		<file name="W:\domains\advanced.loc\common\logic\behavior\SecurityBehavior.php" crc="1510407997"/>
+		<file name="W:\domains\advanced.loc\common\logic\behavior\SecurityBehavior.php" crc="1510734294"/>
 		<file name="W:\domains\advanced.loc\common\fixtures\UserFixture.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\common\config\test.php" crc="1508139394"/>
 		<file name="W:\domains\advanced.loc\common\config\test-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\common\config\params.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\common\config\params-local.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\common\config\main.php" crc="1508045267"/>
+		<file name="W:\domains\advanced.loc\common\config\main.php" crc="1510737480"/>
 		<file name="W:\domains\advanced.loc\common\config\main-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\common\config\bootstrap.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\common\codeception.yml" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\backend\widgets\views\user.php" crc="1510567102"/>
+		<file name="W:\domains\advanced.loc\backend\widgets\views\user.php" crc="1510746215"/>
 		<file name="W:\domains\advanced.loc\backend\widgets\views\my.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\backend\widgets\UserWidget.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\backend\widgets\MyWidget.php" crc="1508045267"/>
+		<file name="W:\domains\advanced.loc\backend\widgets\UserWidget.php" crc="1510733746"/>
+		<file name="W:\domains\advanced.loc\backend\widgets\MyWidget.php" crc="1510733765"/>
 		<file name="W:\domains\advanced.loc\backend\web\css\site.css" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\ef994a52\js\kv-widgets.min.js" crc="1508059667"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\ef994a52\js\kv-widgets.js" crc="1508059667"/>
@@ -12619,6 +12620,382 @@
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker3.css" crc="1508046549"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker.min.css" crc="1508046549"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\cfe0aa16\css\bootstrap-datepicker.css" crc="1508046549"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\proxy\elFinderSupportVer1.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\help\sk.html.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\help\pl.html.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\help\jp.html.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\help\en.html.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\help\cs.html.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.zh_TW.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.zh_CN.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.vi.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.uk.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ug_CN.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.tr.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.sv.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.sr.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.sl.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.sk.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.si.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ru.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ro.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.pt_BR.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.pl.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.no.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.nl.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.LANG.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ko.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.jp.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.it.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.id.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.hu.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.hr.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.he.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.fr.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.fo.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.fallback.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.fa.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.es.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.el.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.de.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.da.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.cs.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ca.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.bg.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\i18n\elfinder.ar.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\extras\quicklook.googledocs.min.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\extras\quicklook.googledocs.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\extras\encoding-japanese.min.js" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\extras\editors.default.min.js" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\extras\editors.default.js" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\elfinder.min.js" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\js\elfinder.full.js" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\css\theme.css" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\css\elfinder.min.css" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\css\elfinder.full.css" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\main.default.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\elfinder.legacy.html" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\c172b0e1\elfinder.html" crc="1510567220"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-zh-TW.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-zh-HK.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-zh-CN.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-vi.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-uk.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-tr.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-tj.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-th.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ta.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sv.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sr.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sr-SR.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sq.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sl.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-sk.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ru.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ro.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-rm.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-pt.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-pt-BR.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-pl.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-no.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-nn.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-nl.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-nl-BE.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-nb.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ms.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ml.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-mk.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-lv.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-lt.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-lb.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ky.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ko.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-km.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-kk.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ka.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ja.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-it.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-it-CH.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-is.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-id.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-hy.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-hu.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-hr.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-hi.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-he.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-gl.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fr.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fr-CH.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fr-CA.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fo.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fi.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-fa.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-eu.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-et.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-es.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-eo.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-en-NZ.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-en-GB.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-en-AU.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-el.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-de.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-da.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-cy-GB.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-cs.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ca.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-bs.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-bg.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-be.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-az.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ar.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-ar-DZ.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\i18n\datepicker-af.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\widget.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\tooltip.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\tabs.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\spinner.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\sortable.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\slider.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\selectmenu.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\selectable.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\resizable.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\progressbar.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\position.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\mouse.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\menu.min.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-transfer.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-slide.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-size.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-shake.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-scale.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-pulsate.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-puff.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-highlight.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-fold.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-fade.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-explode.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-drop.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-clip.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-bounce.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\effect-blind.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\droppable.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\draggable.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\dialog.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\datepicker.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\core.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\button.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\autocomplete.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\minified\accordion.min.js" crc="1510567228"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-zh-TW.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-zh-HK.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-zh-CN.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-vi.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-uk.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-tr.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-tj.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-th.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ta.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sv.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sr.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sr-SR.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sq.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sl.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-sk.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ru.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ro.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-rm.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-pt.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-pt-BR.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-pl.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-no.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-nn.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-nl.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-nl-BE.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-nb.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ms.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ml.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-mk.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-lv.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-lt.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-lb.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ky.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ko.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-km.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-kk.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ka.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ja.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-it.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-it-CH.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-is.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-id.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-hy.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-hu.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-hr.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-hi.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-he.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-gl.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fr.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fr-CH.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fr-CA.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fo.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fi.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-fa.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-eu.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-et.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-es.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-eo.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-en-NZ.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-en-GB.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-en-AU.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-el.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-de.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-da.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-cy-GB.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-cs.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ca.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-bs.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-bg.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-be.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-az.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ar.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-ar-DZ.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\i18n\datepicker-af.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\widget.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\tooltip.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\tabs.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\spinner.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\sortable.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\slider.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\selectmenu.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\selectable.js" crc="1510567230"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\resizable.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\progressbar.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\position.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\mouse.js" crc="1510567229"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\menu.js" crc="1510567227"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-transfer.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-slide.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-size.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-shake.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-scale.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-pulsate.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-puff.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-highlight.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-fold.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-fade.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-explode.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-drop.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-clip.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-bounce.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\effect-blind.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\droppable.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\draggable.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\dialog.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\datepicker.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\core.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\button.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\autocomplete.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\ui\accordion.js" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\vader\theme.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\vader\jquery-ui.min.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\vader\jquery-ui.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-lightness\theme.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-lightness\jquery-ui.min.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-lightness\jquery-ui.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-darkness\theme.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-darkness\jquery-ui.min.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\ui-darkness\jquery-ui.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\trontastic\theme.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\trontastic\jquery-ui.min.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\trontastic\jquery-ui.css" crc="1510567226"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\swanky-purse\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\swanky-purse\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\swanky-purse\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\sunny\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\sunny\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\sunny\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\start\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\start\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\start\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\south-street\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\south-street\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\south-street\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\smoothness\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\smoothness\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\smoothness\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\redmond\theme.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\redmond\jquery-ui.min.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\redmond\jquery-ui.css" crc="1510567225"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\pepper-grinder\theme.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\pepper-grinder\jquery-ui.min.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\pepper-grinder\jquery-ui.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\overcast\theme.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\overcast\jquery-ui.min.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\overcast\jquery-ui.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\mint-choc\theme.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\mint-choc\jquery-ui.min.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\mint-choc\jquery-ui.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\le-frog\theme.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\le-frog\jquery-ui.min.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\le-frog\jquery-ui.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\humanity\theme.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\humanity\jquery-ui.min.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\humanity\jquery-ui.css" crc="1510567224"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\hot-sneaks\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\hot-sneaks\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\hot-sneaks\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\flick\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\flick\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\flick\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\excite-bike\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\excite-bike\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\excite-bike\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\eggplant\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\eggplant\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\eggplant\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dot-luv\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dot-luv\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dot-luv\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dark-hive\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dark-hive\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\dark-hive\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\cupertino\theme.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\cupertino\jquery-ui.min.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\cupertino\jquery-ui.css" crc="1510567223"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\blitzer\theme.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\blitzer\jquery-ui.min.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\blitzer\jquery-ui.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\black-tie\theme.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\black-tie\jquery-ui.min.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\black-tie\jquery-ui.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\tooltip.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\theme.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\tabs.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\spinner.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\sortable.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\slider.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\selectmenu.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\selectable.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\resizable.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\progressbar.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\menu.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\jquery-ui.min.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\jquery-ui.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\draggable.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\dialog.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\datepicker.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\core.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\button.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\base.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\autocomplete.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\all.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\themes\base\accordion.css" crc="1510567222"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\LICENSE.txt" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\jquery-ui.min.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\jquery-ui.js" crc="1510567221"/>
+		<file name="W:\domains\advanced.loc\backend\web\assets\bf1f0d00\AUTHORS.txt" crc="1510567221"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\pages\dashboard2.js" crc="1508062488"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\pages\dashboard.js" crc="1508062488"/>
 		<file name="W:\domains\advanced.loc\backend\web\assets\a53f392c\js\demo.js" crc="1508062488"/>
@@ -13046,15 +13423,16 @@
 		<file name="W:\domains\advanced.loc\backend\views\system\security\create.php" crc="1510385995"/>
 		<file name="W:\domains\advanced.loc\backend\views\system\security\_search.php" crc="1510385995"/>
 		<file name="W:\domains\advanced.loc\backend\views\system\security\_form.php" crc="1510385995"/>
-		<file name="W:\domains\advanced.loc\backend\views\system\log\log.php" crc="1510385995"/>
+		<file name="W:\domains\advanced.loc\backend\views\system\log\log.php" crc="1510734560"/>
 		<file name="W:\domains\advanced.loc\backend\views\system\info\info.php" crc="1510385995"/>
+		<file name="W:\domains\advanced.loc\backend\views\system\cache\cache.php" crc="1510746068"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\login.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\index.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\site\error.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\main.php" crc="1508062759"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\main-login.php" crc="1508063412"/>
-		<file name="W:\domains\advanced.loc\backend\views\layouts\left.php" crc="1510407215"/>
-		<file name="W:\domains\advanced.loc\backend\views\layouts\header.php" crc="1510566949"/>
+		<file name="W:\domains\advanced.loc\backend\views\layouts\left.php" crc="1510746117"/>
+		<file name="W:\domains\advanced.loc\backend\views\layouts\header.php" crc="1510746243"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\error.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\layouts\content.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\blog\pages\view.php" crc="1510560989"/>
@@ -13069,21 +13447,21 @@
 		<file name="W:\domains\advanced.loc\backend\views\blog\category\create.php" crc="1510560481"/>
 		<file name="W:\domains\advanced.loc\backend\views\blog\category\_search.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\blog\category\_form.php" crc="1510560767"/>
-		<file name="W:\domains\advanced.loc\backend\views\auth\user\view.php" crc="1510566207"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\view.php" crc="1510727321"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\update.php" crc="1510564706"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\password.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\backend\views\auth\user\index.php" crc="1508138168"/>
+		<file name="W:\domains\advanced.loc\backend\views\auth\user\index.php" crc="1510727310"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\create.php" crc="1510564658"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\_search.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\views\auth\user\_form.php" crc="1510561209"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\system\SettingFormTest.php" crc="1510559455"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\system\SecurityFormTest.php" crc="1510558547"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\PagesFormTest.php" crc="1510559847"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\CategoryFormTest.php" crc="1510559754"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserUpdateFormTest.php" crc="1510559365"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserPasswordFormTest.php" crc="1510558473"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserFormTest.php" crc="1510558397"/>
-		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\LoginFormTest.php" crc="1508582251"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\system\SettingFormTest.php" crc="1510733673"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\system\SecurityFormTest.php" crc="1510733690"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\PagesFormTest.php" crc="1510733645"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\blog\CategoryFormTest.php" crc="1510733641"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserUpdateFormTest.php" crc="1510733603"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserPasswordFormTest.php" crc="1510733590"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\UserFormTest.php" crc="1510733576"/>
+		<file name="W:\domains\advanced.loc\backend\tests\unit\forms\auth\LoginFormTest.php" crc="1510733557"/>
 		<file name="W:\domains\advanced.loc\backend\tests\unit\_bootstrap.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\UserCest.php" crc="1510566847"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional\SettingCest.php" crc="1510565609"/>
@@ -13096,8 +13474,10 @@
 		<file name="W:\domains\advanced.loc\backend\tests\_support\_generated\FunctionalTesterActions.php" crc="1508045400"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_support\UnitTester.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_support\FunctionalTester.php" crc="1508045267"/>
+		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.UserCest.createTest.fail.html" crc="1510567150"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.LoginCest.loginTest.fail.html" crc="1508054581"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.LoginCest.errorTest.fail.html" crc="1508063238"/>
+		<file name="W:\domains\advanced.loc\backend\tests\_output\backend.tests.CategoryCest.createTest.fail.html" crc="1510560777"/>
 		<file name="W:\domains\advanced.loc\backend\tests\_data\login_data.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\tests\unit.suite.yml" crc="1510559302"/>
 		<file name="W:\domains\advanced.loc\backend\tests\functional.suite.yml" crc="1508045267"/>
@@ -13112,18 +13492,19 @@
 		<file name="W:\domains\advanced.loc\backend\logic\form\auth\AdminLoginForm.php" crc="1508135469"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\system\SettingController.php" crc="1510559410"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\system\SecurityController.php" crc="1510568123"/>
-		<file name="W:\domains\advanced.loc\backend\controllers\system\LogController.php" crc="1510407779"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\system\LogController.php" crc="1510734859"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\system\InfoController.php" crc="1510567361"/>
+		<file name="W:\domains\advanced.loc\backend\controllers\system\CacheController.php" crc="1510746082"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\blog\PagesController.php" crc="1510567754"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\blog\CategoryController.php" crc="1510568076"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\auth\UserController.php" crc="1510568096"/>
 		<file name="W:\domains\advanced.loc\backend\controllers\SiteController.php" crc="1510569012"/>
-		<file name="W:\domains\advanced.loc\backend\config\url.php" crc="1510407150"/>
+		<file name="W:\domains\advanced.loc\backend\config\url.php" crc="1510746293"/>
 		<file name="W:\domains\advanced.loc\backend\config\test.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\config\test-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\config\params.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\config\params-local.php" crc="1508045267"/>
-		<file name="W:\domains\advanced.loc\backend\config\main.php" crc="1508137264"/>
+		<file name="W:\domains\advanced.loc\backend\config\main.php" crc="1510733486"/>
 		<file name="W:\domains\advanced.loc\backend\config\main-local.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\config\bootstrap.php" crc="1508045267"/>
 		<file name="W:\domains\advanced.loc\backend\assets\ErrorAsset.php" crc="1508045267"/>

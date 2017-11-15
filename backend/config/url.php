@@ -31,7 +31,7 @@ return [
 	    'system/info' => 'system/info/view',
 	    'system/setting' => 'system/setting/view',
 	    'system/log' => 'system/log/view',
-	    'system/cache' => 'system/cache/delete',
+	    'system/cache' => 'system/cache/view',
 	    //security
 	    'security' => 'system/security/index',
 		'security/create' => 'system/security/create',

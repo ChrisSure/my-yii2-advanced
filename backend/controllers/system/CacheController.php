@@ -11,11 +11,17 @@ use yii\web\Controller;
 class CacheController extends Controller
 {
 	
-	public function actionDelete()
+	public function actionView()
+	{
+		return $this->render('cache');
+	}
+	
+	
+	public function actionClear()
 	{
 		if (Yii::$app->cache->flush()) {
 			Yii::$app->session->setFlash('success', 'Кеш очищено !');
-			return $this->redirect(['/']);
+			return $this->redirect(['view']);
 		}
 	}
 	

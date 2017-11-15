@@ -32,10 +32,7 @@ use backend\widgets\UserWidget;
 
                 <!-- User Account: style can be found in dropdown.less -->
                 <li>
-                    <a href="<?=Url::to(['/system/setting'])?>" title="Настройки"><i class="fa fa-gears"></i></a> <!--data-toggle="control-sidebar"-->
-                </li>
-                <li>
-                    <a href="<?=Url::to(['/system/cache'])?>" title="Очистити кеш"><i class="fa fa-cubes"></i></a> <!--data-toggle="control-sidebar"-->
+                    <a href="<?=\Yii::$app->urlManager->hostInfo;?>" title="На сайт" target="_blank"><i class="fa fa-arrow-circle-right"></i></a> <!--data-toggle="control-sidebar"-->
                 </li>
             </ul>
         </div>

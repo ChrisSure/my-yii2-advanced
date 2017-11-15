@@ -21,9 +21,6 @@ use yii\helpers\Url;
             <div class="pull-left">
                 <a href="<?=Url::to(['/auth/user/view', 'id' => \Yii::$app->user->id])?>" class="btn btn-default btn-flat">Профіль</a>
             </div>
-            <div class="pull-left" style="margin-left: 15px;">
-                <a href="<?=\Yii::$app->urlManager->hostInfo;?>" target="_blank" class="btn btn-default btn-flat">На сайт</a>
-            </div>
             <div class="pull-right">
                 <?= Html::a('Вийти', ['/site/logout'], ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']);?>
             </div>
