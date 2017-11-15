@@ -20,7 +20,7 @@ use common\logic\entities\auth\Role;
 		    <? endif; ?>
 		    <?= $form->field($model, 'status')->checkbox() ?>
 		    <div class="form-group">
-			    <?= Html::submitButton('Зберегти', ['class' => 'btn btn-success']) ?>
+			    <?= Html::submitButton('Зберегти', ['class' => 'btn btn-success', 'name' => 'user-button']) ?>
 			</div>
 	    <?php ActiveForm::end(); ?>
 	</div>

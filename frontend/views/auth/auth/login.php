@@ -6,7 +6,7 @@ use yii\bootstrap\ActiveForm;
 use shop\entities\lang\Lang;
 
 $this->title = 'Вхід';
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = Html::encode($this->title);
 ?>
 <div class="container">
 	<div class="row">

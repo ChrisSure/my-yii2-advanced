@@ -5,6 +5,7 @@ namespace common\logic\entities\search;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
+use yii\helpers\Html;
 use common\logic\entities\auth\User;
 
 /**
@@ -66,7 +67,7 @@ class UserSearch extends User
         $query->andFilterWhere(['auth_assignment.item_name' => $this->role]);
 		$query->andFilterWhere(['>=', 'user.created_at', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
             ->andFilterWhere(['<=', 'user.created_at', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null]);
-        $query->andFilterWhere(['like', 'username', $this->username]);
+        $query->andFilterWhere(['like', 'username', Html::encode($this->username)]);
 
         return $dataProvider;
     }

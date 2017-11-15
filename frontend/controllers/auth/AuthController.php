@@ -8,10 +8,11 @@ use yii\filters\AccessControl;
 
 use frontend\logic\form\auth\LoginForm;
 use common\logic\services\auth\LoginServices;
+use common\logic\entities\system\Logs;
 
 
 /**
-* Контроллер авторизації, реєстрації та скинення пароля
+* Контроллер авторизації
 */
 class AuthController extends Controller
 {
@@ -61,6 +62,7 @@ class AuthController extends Controller
 			if ($this->service->loginUserByEmail($form->email, $form->password, $form->rememberMe)) {
 				return $this->goHome();
 			} else {
+				Logs::add('Невдала спроба входу на сайт. Email - ' . $form->email . ' ||| Login - ' . $form->password , __FILE__, 4); //Add log
 				Yii::$app->session->setFlash('danger', 'Ви ввели невірний логін або пароль.');
 				return $this->redirect('/auth/login');
 			}

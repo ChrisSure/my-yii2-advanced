@@ -10,10 +10,10 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use backend\logic\form\blog\CategoryForm;
 use common\logic\services\blog\CategoryServices;
+use common\logic\entities\system\Logs;
 
-/**
- * CategoryController implements the CRUD actions for Category model.
- */
+
+
 class CategoryController extends Controller
 {
 	
@@ -164,7 +164,9 @@ class CategoryController extends Controller
         if (($model = Category::findOne($id)) !== null) {
             return $model;
         } else {
-            throw new NotFoundHttpException('The requested page does not exist.');
+        	Logs::add('Спроба звернутись до неіснуючої категорії', __FILE__, 2); //Add log
+            throw new NotFoundHttpException('Запитана сторінка не існує.');
         }
     }
+    
 }

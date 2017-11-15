@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use common\logic\services\blog\PagesServices;
 use backend\logic\form\blog\PagesForm;
+use common\logic\entities\system\Logs;
 
 
 
@@ -113,7 +114,9 @@ class PagesController extends Controller
         if (($model = Pages::findOne($id)) !== null) {
             return $model;
         } else {
+        	Logs::add('Спроба звернутись до неіснуючої сторінки', __FILE__, 2); //Add log
             throw new NotFoundHttpException('Запитана сторінка не існує.');
         }
     }
+    
 }

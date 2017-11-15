@@ -101,6 +101,29 @@ a.desc:after {
     border: none;
 }
 
+
+.mainH1 {
+	text-align: center;
+	font-size: 40px;
+}
+/*Pages*/
+.getPagesH3 {
+	text-align: right;
+}
+.getPages {
+	float:right;
+}
+	.getPages li {
+		list-style-type: none;
+		float: left;
+		margin-left: 20px;
+	}
+
+/*Pages*/
+
+
+
+
 @media(max-width:767px) {
     .nav li > form > button.logout {
         display:block;

@@ -1,9 +1,11 @@
 <?php
-namespace common\logic\services\security;
+namespace common\logic\services\system;
 
 use Yii;
 use yii\web\NotFoundHttpException;
-use common\logic\repositories\security\SecurityRepository;
+use common\logic\repositories\system\SecurityRepository;
+use backend\logic\form\system\SecurityForm;
+use common\logic\entities\system\Security;
 
 
 
@@ -17,6 +19,35 @@ class SecurityServices
 	{
 		$this->secRep = $secRep;
 	}
+	
+	
+	public function create(SecurityForm $form)
+    {
+        $security = Security::create(
+        	$form->ip
+        );
+        $this->secRep->save($security);
+        return $security;
+    }
+	
+	
+	public function edit($id, SecurityForm $form)
+    {
+        $security = $this->secRep->get($id);
+        $security->edit(
+        	$form->ip
+        );
+        $this->secRep->save($security);
+    }
+    
+    
+    public function remove($id): void
+    {
+        $security = $this->secRep->get($id);
+        $this->secRep->remove($security);
+    }
+	
+	
 	
 	/**
 	* Метод перевіряє чи існує ip в базі блокування

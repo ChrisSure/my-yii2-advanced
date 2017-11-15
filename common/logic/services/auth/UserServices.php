@@ -32,7 +32,7 @@ class UserServices
             $form->password,
             $form->status
         );
-        $last = $this->user->save($user);
+        $last = $this->user->save($user, true);
         $this->getRole($form->role, $last);
         return $user;
     }
@@ -61,7 +61,7 @@ class UserServices
     }
     
     
-    public function remove($id): void
+    public function remove($id)
     {
         $user = $this->user->get($id);
         $this->deleteRole($id);
@@ -77,7 +77,7 @@ class UserServices
 	* 
 	* @return void
 	*/
-    private function getRole($role, $id, $update = false): void
+    private function getRole($role, $id, $update = false)
     {
 		//Встановлюємо роль
         $auth = Yii::$app->authManager;
@@ -97,7 +97,7 @@ class UserServices
 	* 
 	* @return void
 	*/
-	private function deleteRole($id): void
+	private function deleteRole($id)
 	{
 		$res = AuthAssign::findOne(['user_id' => $id]);
 		$res->delete();

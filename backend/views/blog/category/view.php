@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="box">
 	<div class="box-body">
 	    <p>
-	        <?= Html::a('Редагувати', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+	        <?= Html::a('Редагувати', ['update', 'id' => $model->id], ['class' => 'btn btn-primary', 'id' => 'update-category-test']) ?>
 	        <?= Html::a('Видалити', ['delete', 'id' => $model->id], [
 	            'class' => 'btn btn-danger',
 	            'data' => [

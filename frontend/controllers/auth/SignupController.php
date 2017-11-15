@@ -4,7 +4,6 @@ namespace frontend\controllers\auth;
 
 use Yii;
 use yii\web\Controller;
-
 use frontend\logic\form\auth\SignupForm;
 use common\logic\services\auth\SignupServices;
 
@@ -25,7 +24,7 @@ class SignupController extends Controller
     
 	
     /**
-	* Реєстраці
+	* Реєстрація
 	*/
     public function actionSignup()
     {

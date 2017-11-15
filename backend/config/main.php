@@ -19,6 +19,7 @@ return [
         '@img_ck' => '/backend/web/ck',
         '@img_ck_path' => '@backend/web/ck',
     ],
+    //Обмеження входу (тільки з ролями admin || super_admin)
     'as access' => [
         'class' => 'yii\filters\AccessControl',
         'except' => ['site/login', 'site/error'],
@@ -29,9 +30,11 @@ return [
             ],
         ],
     ],
+    //Поведення захисту по IP
     'as AccessBehavior' => [
         'class' => \common\logic\behavior\SecurityBehavior::className(),
    	],
+   	//ElFinder (файловий менеджер)
     'controllerMap' => [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\Controller',
@@ -53,6 +56,7 @@ return [
         ],
     ],
     'components' => [
+    	//Підключення теми (адмінки) admin-lte
     	'view' => [
 	         'theme' => [
 	             'pathMap' => [

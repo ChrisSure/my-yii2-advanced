@@ -7,14 +7,14 @@ use common\logic\entities\auth\User;
 /* @var $this yii\web\View */
 /* @var $model app\modules\live\models\User */
 
-$this->title = 'Перегляд - ' . $model->username;
+$this->title = 'Перегляд - ' . Html::encode($model->username);
 $this->params['breadcrumbs'][] = ['label' => 'Адміністратори', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="box">
 	<div class="box-body">
 	    <p>
-	        <?= Html::a('Редагувати', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+	        <?= Html::a('Редагувати', ['update', 'id' => $model->id], ['class' => 'btn btn-primary', 'id' => 'update-user-test']) ?>
 	        <?= Html::a('Змінити пароль', ['password', 'id' => $model->id], ['class' => 'btn btn-default']) ?>
 		    <?= Html::a('Видалити', ['delete', 'id' => $model->id], [
 		        'class' => 'btn btn-danger',

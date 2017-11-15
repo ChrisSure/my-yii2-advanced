@@ -14,6 +14,11 @@ class PagesRepository
         }
         return $category;
     }
+    
+    public function getWith($with, $value)
+	{
+		return Pages::find()->where([$with => $value])->andwhere(['status' => 1])->one();
+	}
 
     public function save(Pages $page): void
     {

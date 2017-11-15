@@ -13,10 +13,10 @@ use common\logic\services\auth\UserServices;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use common\logic\entities\system\Logs;
 
-/**
- * AdminController implements the CRUD actions for User model.
- */
+
+
 class UserController extends Controller
 {
 	
@@ -104,7 +104,7 @@ class UserController extends Controller
     {
         $user = $this->findModel($id);
         $role = AuthAssign::findOne(['user_id' => $id]);
-
+        
         $form = new UserUpdateForm($user, $role->item_name);
         if ($form->load(Yii::$app->request->post()) && $form->validate()) {
             try {
@@ -168,10 +168,12 @@ class UserController extends Controller
      */
     protected function findModel($id)
     {
-        if (($model = User::findOne($id)) !== null) {
+        if (($model = User::find()->where(['id' => $id])->one()) !== null) {
             return $model;
         } else {
-            throw new NotFoundHttpException('The requested page does not exist.');
+        	Logs::add('Спроба звернутись до неіснуючого користувача', __FILE__, 2); //Add log
+            throw new NotFoundHttpException('Запитана сторінка не існує.');
         }
     }
+    
 }

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\entities\Category */
 
-$this->title = 'Редагування: ' . $model->title;
+$this->title = 'Редагування: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Категорії', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

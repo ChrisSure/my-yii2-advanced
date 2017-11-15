@@ -15,12 +15,12 @@ class UserRepository
         return $user;
     }
 
-    public function save(User $user): int
+    public function save(User $user, $create = false): int
     {
         if (!$user->save()) {
             throw new \RuntimeException('Saving error.');
         }
-        return \Yii::$app->db->getLastInsertID();
+        return ($create) ? $user->id : true;
     }
 
     public function remove(User $user): void

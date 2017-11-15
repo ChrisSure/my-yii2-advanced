@@ -11,7 +11,7 @@ use frontend\logic\form\auth\ResetPasswordForm;
 use frontend\logic\services\auth\ResetPasswordServices;
 
 /**
-* Контроллер авторизації, реєстрації та скинення пароля
+* Контроллер скинення пароля
 */
 class ResetController extends Controller
 {

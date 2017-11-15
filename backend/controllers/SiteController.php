@@ -7,6 +7,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use backend\logic\form\auth\AdminLoginForm;
 use common\logic\services\auth\LoginServices;
+use common\logic\entities\system\Logs;
 
 
 
@@ -62,6 +63,7 @@ class SiteController extends Controller
 			if ($this->loginServ->loginUserByEmail($form->email, $form->password, $form->rememberMe, $admin = true)) {
 				return $this->redirect('/admin');
 			} else {
+				Logs::add('Невдала спроба входу на сайт', __FILE__, 4); //Add log
 				Yii::$app->session->setFlash('danger', 'Ви ввели невірний логін або пароль.');
 				return $this->redirect('/admin');
 			}
@@ -73,7 +75,6 @@ class SiteController extends Controller
     public function actionLogout()
     {
         Yii::$app->user->logout();
-
         return $this->goHome();
     }
     

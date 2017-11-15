@@ -11,7 +11,7 @@ use common\logic\entities\auth\Role;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Користувачі';
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = Html::encode($this->title);
 ?>
 <div class="box">
 	<div class="box-body">

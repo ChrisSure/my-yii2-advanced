@@ -14,7 +14,11 @@ use yii\widgets\ActiveForm;
 
     <div class="box box-default">
         <div class="box-body">
-            <?= $form->field($model, 'parentId')->dropDownList($model->parentCategoriesList($category->id)) ?>
+        	<? if (\Yii::$app->controller->action->id == 'create'): ?>
+        		<?= $form->field($model, 'parentId')->dropDownList($model->parentCategoriesList(false)); ?>
+        	<? else: ?>
+        		<?= $form->field($model, 'parentId')->dropDownList($model->parentCategoriesList($category->id)); ?>
+        	<? endif; ?>
             <?= $form->field($model, 'slug')->textInput(['maxlength' => true]) ?>
             <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
             
@@ -31,7 +35,7 @@ use yii\widgets\ActiveForm;
     </div>
 
     <div class="form-group">
-        <?= Html::submitButton('Зберегти', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Зберегти', ['class' => 'btn btn-success', 'name' => 'category-button']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

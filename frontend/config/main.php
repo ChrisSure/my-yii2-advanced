@@ -16,6 +16,7 @@ return [
         '@img' => '/frontend/web/img',
         '@img_path' => '@frontend/web/img',
     ],
+    //Поведення захисту по IP
     'as AccessBehavior' => [
         'class' => \common\logic\behavior\SecurityBehavior::className(),
    	],
@@ -29,9 +30,10 @@ return [
                     'clientId' => '249230592148073',
                     'clientSecret' => '0be6756a0413ed562d4d4c412269aedb',
                 ],
-                // и т.д.
+                // і т.д.
             ],
         ],
+        //Recaptcha (google)
         'reCaptcha' => [
 	        'name' => 'reCaptcha',
 	        'class' => 'himiklab\yii2\recaptcha\ReCaptcha',

@@ -7,7 +7,9 @@ use frontend\logic\form\auth\LoginForm;
 
 class LoginFormTest extends \Codeception\Test\Unit
 {
-	
+	/**
+	* Тест форми логіну
+	*/
    	public function testSuccess()
     {
         $model = new LoginForm();

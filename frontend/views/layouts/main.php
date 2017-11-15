@@ -7,6 +7,8 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
+use frontend\widgets\PagesWidget;
+use frontend\widgets\CategoryWidget;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
@@ -57,6 +59,18 @@ AppAsset::register($this);
     ]);
     NavBar::end();
     ?>
+    
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-md-8">
+	    		<?=CategoryWidget::widget();?>
+	    	</div>
+			<div class="col-md-4">
+				<?=PagesWidget::widget();?>
+			</div>
+		</div>
+	</div>
+    
 
     <div class="container">
         <?= Breadcrumbs::widget([

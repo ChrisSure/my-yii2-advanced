@@ -71,7 +71,6 @@ class User extends ActiveRecord implements IdentityInterface
     {
         $user = new User();
         $user->username = $name;
-        $user->email = $email;
         $user->created_at = time();
         $user->status = self::STATUS_ACTIVE;
         $user->generateAuthKey();

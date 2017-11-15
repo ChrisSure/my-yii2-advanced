@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="box">
 	<div class="box-body">
 		<p>
-			<?= Html::a(\Yii::t('app', 'Редагувати'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+			<?= Html::a(\Yii::t('app', 'Редагувати'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary', 'id' => 'update-pages-test']) ?>
 			<?= Html::a(\Yii::t('app', 'Видалити'), ['delete', 'id' => $model->id], [
 			    'class' => 'btn btn-danger',
 			    'data' => [

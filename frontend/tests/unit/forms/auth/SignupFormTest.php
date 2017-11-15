@@ -6,7 +6,9 @@ use frontend\logic\form\auth\SignupForm;
 
 class SignupFormTest extends \Codeception\Test\Unit
 {
-	
+	/**
+	* Тест форми реєстрації
+	*/
     public function testSuccess()
     {
         $model = new SignupForm();

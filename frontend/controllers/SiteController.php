@@ -3,10 +3,13 @@ namespace frontend\controllers;
 
 use Yii;
 use yii\web\Controller;
-use common\logic\entities\blog\Category;
+use common\logic\repositories\system\SettingRepository;
+use frontend\logic\components\Meta;
 
 
-
+/**
+* Контроллер головний
+*/
 class SiteController extends Controller
 {
     
@@ -22,8 +25,9 @@ class SiteController extends Controller
     
     public function actionIndex()
     {
-    	$cat = Category::find()->andWhere(['>', 'depth', 0])->orderBy(['lft' => SORT_ASC])->all();
-        return $this->render('index', ['cat' => $cat]);
+    	$setting = (new SettingRepository())->get(1);
+    	$meta = Meta::create($setting->title, $setting->description, $setting->keywords);
+        return $this->render('index', ['meta' => $meta]);
     }
 
 }

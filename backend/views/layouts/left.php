@@ -46,6 +46,18 @@
     				
                     ['label' => 'Користувачі', 'icon' => 'user', 'url' => ['/user']],  
                     
+                    [
+                        'label' => 'Система',
+                        'icon' => 'database',
+                        'url' => '#',
+                        'items' => [
+                    		['label' => 'Інформація', 'icon' => 'info', 'url' => ['/system/info']],
+                    		['label' => 'Настройки', 'icon' => 'cog', 'url' => ['/system/setting']],
+                    		['label' => 'Логи', 'icon' => 'list-alt', 'url' => ['/system/log']],
+                    		['label' => 'Захист', 'icon' => 'lock', 'url' => ['/security']],
+                        ],
+                    ],
+                    
                 ],
             ]
         ) ?>

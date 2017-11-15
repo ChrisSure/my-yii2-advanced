@@ -12,14 +12,17 @@ use yii\helpers\Url;
         <li class="user-header">
             <img src="<?=\Yii::getAlias('@img_path')?>/avatar99.jpg" class="img-circle" alt="User Image"/>
             <p>
-                Taras
-                <small>Зареєстрований - 24.09.2017</small>
+                <?=Html::encode(\Yii::$app->user->identity->username);?>
+                <small>Зареєстрований - <?=date('d-m-y, h:i:s',\Yii::$app->user->identity->created_at);?></small>
             </p>
         </li>
     	<!-- Menu Footer-->
         <li class="user-footer">
             <div class="pull-left">
                 <a href="<?=Url::to(['/auth/user/view', 'id' => \Yii::$app->user->id])?>" class="btn btn-default btn-flat">Профіль</a>
+            </div>
+            <div class="pull-left" style="margin-left: 15px;">
+                <a href="<?=\Yii::$app->urlManager->hostInfo;?>" target="_blank" class="btn btn-default btn-flat">На сайт</a>
             </div>
             <div class="pull-right">
                 <?= Html::a('Вийти', ['/site/logout'], ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']);?>

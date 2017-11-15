@@ -5,8 +5,8 @@ use frontend\logic\services\auth\ResetPasswordServices;
 use common\logic\services\EmailServices;
 use common\logic\repositories\auth\UserRepository;
 use common\logic\services\auth\LoginServices;
-use common\logic\services\security\SecurityServices;
-use common\logic\repositories\security\SecurityRepository;
+use common\logic\services\system\SecurityServices;
+use common\logic\repositories\system\SecurityRepository;
 
 
 class ResetTest extends \Codeception\Test\Unit

@@ -6,6 +6,7 @@ use common\logic\entities\auth\User;
 use common\logic\repositories\auth\UserRepository;
 use common\logic\services\EmailServices;
 use yii\web\BadRequestHttpException;
+use common\logic\entities\system\Logs;
 
 
 
@@ -64,8 +65,10 @@ class SignupServices
 	*/
     public function confirmUser($token){
     	$user = $this->user_rep->existsByPasswordResetToken($token);
-    	if (!$user)
+    	if (!$user) {
+			Logs::add('Невдала спроба підтвердження реєстрації', __FILE__, 3); //Add log
     		throw new BadRequestHttpException('Невірний код підтвердження.');
+		}
     	$user->status = User::STATUS_ACTIVE;
     	if ($user->save(false) && $this->login->loginUser($user)) {
 			if (!$this->send->sendConfirmUser($user))

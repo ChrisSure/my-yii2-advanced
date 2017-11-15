@@ -3,7 +3,13 @@ return [
 	'enablePrettyUrl' => true,
 	'showScriptName' => false,
 	'rules' => [
+		//main
 	    '' => 'site/index',
+	    
+	    //blog
+	    'page/<slug:\w+>' => 'blog/pages/view',
+		'category/<slug:\w+>' => 'blog/category/view',
+	    
 	    //auth
         'auth/signup' => 'auth/signup/signup',
         'auth/confirm-user' => 'auth/signup/confirm-user',

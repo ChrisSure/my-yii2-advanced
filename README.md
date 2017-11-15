@@ -1,55 +1,28 @@
-Yii 2 Advanced Project Template
-===============================
+My-yii2-advanced
+============================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+1. Відкрити композер і вставити     **composer create-project --prefer-dist --stability=dev snayper911/my-yii2-advanced name**
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+2. Створити бази даних name | name_test (в папці files існує дамп тестової бази)
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+3. В файлі common\config\main-local.php змінити назву бази на name, а в файлі common\config\test-local.php на test_name
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+4. Запустити міграції    **yii migrate created**
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+5. Запустити міграцію для ролей     **yii migrate --migrationPath=@yii/rbac/migrations**
 
-DIRECTORY STRUCTURE
--------------------
+6. Запустити команду для ініціалізації ролей     **yii rbac/init**
 
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
+7. Зайти в папку vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app і видалити там файли
+
+8. Добавити папку ua в директорію vendor\yiisoft\yii2\messages видалити папку files
+
+9. Скопіювати дамп в тестову базу, в таблиці security полю ip назначити за замовчуванням null. Запустити тести
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Авторизація через соціальні мережі :
+1. Створити додаток в developers.facebook.com 
+2. Заповнити ключі секретні
+
+-------------------------------------------------------------------------------------------------------------------------

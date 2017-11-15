@@ -2,13 +2,19 @@
 
 2. Створити бази даних name | name_test
 
-3. Зайти в папку vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app і видалити там файли
+3. В файлі common\config\main-local.php змінити назву бази на name, а в файлі common\config\test-local.php на test_name
 
-4. Створити папку unit в директорії common\tests
+4. Запустити міграції   yii migrate created
 
-5. Добавити папку ua в директорію vendor\yiisoft\yii2\messages видалити папку files
+5. Запустити міграцію для ролей    yii migrate --migrationPath=@yii/rbac/migrations
 
-6. Запустити тести
+6. Запустити команду для ініціалізації ролей    yii rbac/init
+
+7. Зайти в папку vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app і видалити там файли
+
+8. Добавити папку ua в директорію vendor\yiisoft\yii2\messages видалити папку files 
+
+9. Скопіювати дамп в тестову базу, в таблиці security полю ip назначити за замовчуванням null. Запустити тести
 
 -------------------------------------------------------------------------------------------------------------------------
 

@@ -3,11 +3,13 @@ namespace common\logic\behavior;
 
 use Yii;
 use yii\base\Behavior;
-use common\logic\repositories\security\SecurityRepository;
+use common\logic\repositories\system\SecurityRepository;
 use yii\web\NotFoundHttpException;
 
 
-
+/**
+* Поведення захисту від блокованих IP
+*/
 class SecurityBehavior extends Behavior
 {
 	

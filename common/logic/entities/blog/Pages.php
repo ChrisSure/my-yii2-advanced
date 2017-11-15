@@ -80,8 +80,7 @@ class Pages extends ActiveRecord
     public function beforeSave($insert)
 	{
 	    if (parent::beforeSave($insert)) {
-	    	if ($this->isNewRecord)
-        	{
+	    	if ($this->isNewRecord) {
             	$pageRep = new PagesRepository();
 		 		if ($last = $pageRep->lastSort()) {
 					$this->sort = $last;

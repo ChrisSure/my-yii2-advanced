@@ -6,14 +6,14 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
 $this->title = 'Реєстрація';
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = Html::encode($this->title);
 ?>
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<div class="site-signup">
-				 <h1><?= Html::encode($this->title) ?></h1>
-       			 <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
+				<h1><?= Html::encode($this->title) ?></h1>
+       			<?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
             		<?= $form->field($model, 'username');?>
                 	<?= $form->field($model, 'email');?>
                 	<?= $form->field($model, 'password')->passwordInput();?>

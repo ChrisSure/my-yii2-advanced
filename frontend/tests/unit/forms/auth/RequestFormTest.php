@@ -6,7 +6,9 @@ use frontend\logic\form\auth\PasswordResetRequestForm;
 
 class RequestFormTest extends \Codeception\Test\Unit
 {
-	
+	/**
+	* Тест форми скидання пароля
+	*/
     public function testSuccess()
     {
         $model = new PasswordResetRequestForm();

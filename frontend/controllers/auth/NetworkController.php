@@ -58,6 +58,7 @@ class NetworkController extends Controller
         $attributes = $client->getUserAttributes();
         $name = ArrayHelper::getValue($attributes, 'name');
         $identity = ArrayHelper::getValue($attributes, 'id');
+        
         try {
             $user = $this->service->auth($network, $identity, $name);
             Yii::$app->user->login(new User($user), 3600 * 24 * 30);

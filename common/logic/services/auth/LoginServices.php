@@ -5,7 +5,7 @@ use Yii;
 use common\logic\entities\auth\User;
 use common\logic\entities\auth\Assignment;
 use common\logic\repositories\auth\UserRepository;
-use common\logic\services\security\SecurityServices;
+use common\logic\services\system\SecurityServices;
 use yii\web\BadRequestHttpException;
 
 

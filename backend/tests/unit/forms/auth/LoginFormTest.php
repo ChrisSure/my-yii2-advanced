@@ -3,7 +3,9 @@ namespace backend\tests\forms\auth;
 
 use backend\logic\form\auth\AdminLoginForm;
 
-
+/**
+* Тест перевіряє форму login (адмінка)
+*/
 class LoginFormTest extends \Codeception\Test\Unit
 {
 	

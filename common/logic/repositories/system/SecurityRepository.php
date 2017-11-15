@@ -1,11 +1,36 @@
 <?php
-namespace common\logic\repositories\security;
+namespace common\logic\repositories\system;
 
-use common\logic\entities\security\Security;
+use common\logic\entities\system\Security;
 
 
 class SecurityRepository
 {
+	
+	public function get($id): Security
+    {
+        if (!$security = Security::findOne($id)) {
+            throw new \RuntimeException('Error with select one page.');
+        }
+        return $security;
+    }
+    
+    public function save(Security $security): void
+    {
+        if (!$security->save()) {
+            throw new \RuntimeException('Saving error.');
+        }
+    }
+
+    public function remove(Security $security): void
+    {
+        if (!$security->delete()) {
+            throw new \RuntimeException('Removing error.');
+        }
+    }
+	
+	
+	
 	
 	/**
 	* Метод повертає кількість невдалих спроб по ip користувача

@@ -6,7 +6,9 @@ use frontend\logic\form\auth\ResetPasswordForm;
 
 class ReserFormTest extends \Codeception\Test\Unit
 {
-	
+	/**
+	* Тест форми відновлення пароля
+	*/
     public function testSuccess()
     {
         $model = new ResetPasswordForm();

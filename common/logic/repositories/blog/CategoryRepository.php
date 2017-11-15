@@ -15,6 +15,11 @@ class CategoryRepository
         }
         return $category;
     }
+    
+    public function getWith($with, $value)
+	{
+		return Category::find()->where([$with => $value])->one();
+	}
 
     public function save(Category $category): void
     {
